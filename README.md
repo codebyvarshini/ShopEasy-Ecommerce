@@ -1,57 +1,16 @@
-# 🛍️ ShopEasy – E-Commerce Web Application
+# React + Vite
 
-ShopEasy is a full-stack e-commerce web application developed to provide users with a simple and convenient online shopping experience.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Technologies Used
+Currently, two official plugins are available:
 
-- **Frontend:** React.js
-- **Backend:** Node.js, Express.js
-- **Languages:** JavaScript, HTML, CSS
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## ✨ Features
+## React Compiler
 
-- User-friendly interface
-- Product browsing
-- Responsive design
-- Frontend and backend integration
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 📂 Project Structure
+## Expanding the ESLint configuration
 
-```text
-ShopEasy/
-├── client/    # Frontend application
-└── server/    # Backend application
-```
-
-## ⚙️ Installation and Setup
-
-### 1. Clone the Repository
-
-```bash
-git clone YOUR_REPOSITORY_URL
-```
-
-### 2. Set Up the Frontend
-
-```bash
-cd client
-npm install
-npm run
-```
-
-Run the appropriate script listed in `client/package.json` to start the frontend.
-
-### 3. Set Up the Backend
-
-Open another terminal:
-
-```bash
-cd server
-npm install
-```
-
-Run the backend using the start command defined in `server/package.json`.
-
-## 👩‍💻 Developer
-
-Developed as a full-stack web development project.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
